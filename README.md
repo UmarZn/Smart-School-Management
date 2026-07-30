@@ -1,6 +1,6 @@
 # Smart School Management (SMKS19)
 
-A simple educational quiz game developed using **Python** and **Pygame**.
+Sebuah permain yang berkaitan dengan pengurusan sekolah **Python** and **Pygame**.
 
 ## Ciri-ciri yang terdapat di dalam aplikasi ini
 - 📚 **Smart School Management**
