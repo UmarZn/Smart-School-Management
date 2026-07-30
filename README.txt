@@ -1,4 +1,4 @@
-# Smart School Management (SMKS19)
+##**Smart School Management (SMKS19)**
 
 A simple educational quiz game developed using Python and Pygame.
 
