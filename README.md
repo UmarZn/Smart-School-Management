@@ -14,6 +14,3 @@ A simple educational quiz game developed using **Python** and **Pygame**.
 ## Technologies Used
 - **Python**
 - **Pygame**
-
-## Author
-**Umar Zahin**
