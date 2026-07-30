@@ -21,6 +21,8 @@ BUTTER = (225, 237, 168)
 SHADOW = (180, 180, 180)
 
 # Font
+title_font = pygame.font.SysFont("Arial", 80, bold=True)
+
 font = pygame.font.SysFont("Arial", 50)
 
 question_font = pygame.font.SysFont("Arial", 36)
@@ -28,7 +30,7 @@ question_font = pygame.font.SysFont("Arial", 36)
 small_font = pygame.font.SysFont("Arial", 28)
 
 # Start button
-button = pygame.Rect(375, 250, 250, 80)
+button = pygame.Rect(375, 320, 250, 80)
 
 # Pillars
 pillar1 = pygame.Rect(60, 150, 250, 400)
@@ -253,11 +255,15 @@ while running:
         else:
             pygame.draw.rect(screen, BLUE, button, border_radius=20)
 
-        title = font.render("EduSync", True, BLUE)
-        screen.blit(title, (260, 120))
+        title = title_font.render("EduSync", True, BLUE)
+
+        title_rect = title.get_rect(center=(WIDTH // 2, 150))
+
+        screen.blit(title, title_rect)
 
         text = font.render("MULA", True, BUTTER)
-        screen.blit(text, (445, 260))
+        text_rect = text.get_rect(center=button.center)
+        screen.blit(text, text_rect)
 
     # -------- DRAW MENU --------
     elif game_state == "menu":
