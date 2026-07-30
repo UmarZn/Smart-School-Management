@@ -5,7 +5,6 @@ Sebuah permain yang berkaitan dengan pengurusan sekolah dengan menggunakan **Pyt
 ## Ciri-ciri yang terdapat di dalam aplikasi ini
 - 📚 **Smart School Management**
 - 🎯 **Sistem Skor**
-- ✅ **3-2 Soalan**
 - 🏆 **Paparan Skor Akhir**
 - 🔙 **Butang Kembali**
 - ❌ **Butang Keluar**
