@@ -3,14 +3,13 @@
 A simple educational quiz game developed using **Python** and **Pygame**.
 
 ## Features
-- 📚 **Three quiz categories**
-- 🎯 **Score system**
-- ✅ **Automatic question progression**
-- 🏆 **Quiz completion screen**
-- 🔙 **Back button**
-- ❌ **Exit button**
-- 🎨 **Rounded modern interface**
-
+- 📚 **Smart School Management**
+- 🎯 **Sistem Skor**
+- ✅ **3 Soalan**
+- 🏆 **Paparan Skor Akhir**
+- 🔙 **Butang Kembali**
+- ❌ **Butang Keluar**
+- 
 ## Technologies Used
 - **Python**
 - **Pygame**
