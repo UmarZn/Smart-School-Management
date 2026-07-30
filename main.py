@@ -255,7 +255,7 @@ while running:
         else:
             pygame.draw.rect(screen, BLUE, button, border_radius=20)
 
-        title = title_font.render("EduSync", True, BLUE)
+        title = title_font.render("Smart School Management", True, BLUE)
 
         title_rect = title.get_rect(center=(WIDTH // 2, 150))
 
