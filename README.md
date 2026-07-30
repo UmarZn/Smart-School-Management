@@ -9,7 +9,6 @@ A simple educational quiz game developed using **Python** and **Pygame**.
 - 🏆 **Paparan Skor Akhir**
 - 🔙 **Butang Kembali**
 - ❌ **Butang Keluar**
-- 
 ## Technologies Used
 - **Python**
 - **Pygame**
