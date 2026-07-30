@@ -10,7 +10,7 @@ WIDTH = 1000
 HEIGHT = 600
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Smart School Management (SMKS19)")
+pygame.display.set_caption("EduSync")
 
 # Colors
 WHITE = (255, 255, 255)
@@ -253,7 +253,7 @@ while running:
         else:
             pygame.draw.rect(screen, BLUE, button, border_radius=20)
 
-        title = font.render("Smart School Management", True, BLUE)
+        title = font.render("EduSync", True, BLUE)
         screen.blit(title, (260, 120))
 
         text = font.render("MULA", True, BUTTER)
